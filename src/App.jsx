@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import { useState } from 'react'
 import Box from "./component/Box"
 
+
 export default function App() {
 
 const [show,setShow]=useState(false)
@@ -26,6 +27,7 @@ const handleShow=()=>{
       
     </Navbar>
     {show &&<Box/>}
+    
     
   </div>
  )
